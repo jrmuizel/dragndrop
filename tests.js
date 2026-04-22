@@ -16,7 +16,6 @@ let tests = [
     kind: "drop",
     description: "Drag and drop a text file from the desktop to the drop area.",
     types: [
-      "application/x-moz-file",
       "Files",
     ],
     files: 1,
@@ -30,7 +29,6 @@ let tests = [
     kind: "drop",
     description: "Drag and drop a pdf file from the desktop to the drop area.",
     types: [
-      "application/x-moz-file",
       "Files",
     ],
     files: 1,
@@ -44,7 +42,6 @@ let tests = [
     kind: "drop",
     description: "Drag and drop an PNG image file from the desktop to the drop area.",
     types: [
-      "application/x-moz-file",
       "Files",
     ],
     files: 1,
@@ -58,7 +55,6 @@ let tests = [
     kind: "drop",
     description: "Drag and drop a JPEG image file from the desktop to the drop area.",
     types: [
-      "application/x-moz-file",
       "Files",
     ],
     files: 1,
@@ -130,7 +126,6 @@ let tests = [
     kind: "paste",
     description: "Copy and paste a text file from the desktop onto this page.",
     types: [
-      "application/x-moz-file",
       "Files",
     ],
     files: 1,
@@ -147,7 +142,6 @@ let tests = [
     kind: "paste",
     description: "Copy and paste a pdf file from the desktop onto this page.",
     types: [
-      "application/x-moz-file",
       "Files",
     ],
     files: 1,
@@ -164,7 +158,6 @@ let tests = [
     kind: "paste",
     description: "Copy and paste a PNG image file from the desktop onto this page.",
     types: [
-      "application/x-moz-file",
       "Files",
     ],
     files: 1,
@@ -181,7 +174,6 @@ let tests = [
     kind: "paste",
     description: "Copy and paste a JPEG image file from the desktop onto this page.",
     types: [
-      "application/x-moz-file",
       "Files",
     ],
     files: 1,
